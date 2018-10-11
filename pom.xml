@@ -12,13 +12,13 @@
     <repository>
       <id>amith-releases</id>
       <name>amith-releases</name>
-      <url>http://ec2-52-66-198-114.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/amith-releases/</url>
+      <url>http://ec2-13-127-166-100.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/amith-releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <id>amith-snapshots</id>
       <name>amith-snapshots</name>
-      <url>http://ec2-52-66-198-114.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/amith-snapshots/</url>
+      <url>http://ec2-13-127-166-100.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/amith-snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
