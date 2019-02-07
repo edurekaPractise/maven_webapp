@@ -4,10 +4,10 @@
   <groupId>com.amith</groupId>
   <artifactId>webapp</artifactId>
   <packaging>war</packaging>
-  <version>2.1-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   <name>webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  
+  <!--
   <distributionManagement>
     <repository>
       <id>amith-releases</id>
@@ -22,7 +22,7 @@
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
-  
+  -->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
