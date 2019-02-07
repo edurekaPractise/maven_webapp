@@ -8,27 +8,7 @@
   <name>webapp Maven Webapp</name>
   
  
-  <profiles>
-   <profile>
-     <id>nexus</id>
-     <repositories>
-       <repository>
-         <id>nexus_local</id>
-         <name>your custom repo</name>
-         <url>http://ec2-52-66-87-168.ap-south-1.compute.amazonaws.com:8081/nexus/content/groups/public/</url>
-       </repository>
-       <repository>
-         <id>maven_repo</id>
-         <name>your maven repo</name>
-         <url>http://maven.apache.org</url>
-       </repository>
-     </repositories>
-   </profile>
- </profiles>
- 
- <activeProfiles>
-   <activeProfile>nexus</activeProfile>
- </activeProfiles>
+  
   
   
   <distributionManagement>
